@@ -1,7 +1,6 @@
 <?php namespace Lovata\Toolbox\Classes\Collection;
 
 use ArrayIterator;
-use October\Contracts\Twig\CallsAnyMethod;
 use October\Rain\Extension\Extendable;
 
 /**
@@ -11,7 +10,7 @@ use October\Rain\Extension\Extendable;
  *
  * @link    https://github.com/lovata/oc-toolbox-plugin/wiki/ElementCollection
  */
-abstract class ElementCollection extends Extendable implements CallsAnyMethod, \IteratorAggregate, \Countable
+abstract class ElementCollection extends Extendable implements \IteratorAggregate, \Countable
 {
     const COUNT_PER_PAGE = 10;
     const ITEM_CLASS = \Lovata\Toolbox\Classes\Item\ElementItem::class;

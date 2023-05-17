@@ -1,6 +1,5 @@
 <?php namespace Lovata\Toolbox\Classes\Item;
 
-use October\Contracts\Twig\CallsAnyMethod;
 use System\Models\File;
 
 use Lovata\Toolbox\Classes\Collection\ElementCollection;
@@ -13,7 +12,7 @@ use Lovata\Toolbox\Traits\Helpers\TraitInitActiveLang;
  *
  * @mixin \October\Rain\Extension\ExtendableTrait
  */
-abstract class MainItem implements CallsAnyMethod
+abstract class MainItem
 {
     use TraitInitActiveLang;
 
